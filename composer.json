@@ -1,0 +1,28 @@
+{
+    "name": "aqibmoh/todolist-php-mvc",
+    "description": "Web TodoList PHP MVC",
+    "type": "project",
+    "authors": [
+        {
+            "name": "mazzlookman",
+            "email": "045230196@ecampus.ut.ac.id"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Aqibmoh\\PHP\\MVC\\": "app"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Aqibmoh\\PHP\\MVC\\": "test"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
